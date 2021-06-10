@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map by Sam</title>
+</head>
+<body>
+    <br>
+    <br>
+
+    <h2 style="display: flex; margin: auto; justify-content: center; font-style: italic;">Peta Kerawanan Erosi di Desa Jatiroke</h2>
+    <h2>Latar Belakang</h2>
+    <p>Desa Jatiroke terletak di Kecamatan Jatinangor, Kabupaten Sumedang, Jawa
+    Barat. Desa ini merupakan salah satu desa binaan SITH ITB yang sering digunakan
+    untuk tujuan pengabdian masyarakat dan penelitian. Terdapat area hutan Gunung
+    geulis (hutan pendidikan ITB) yang juga termasuk ke dalam wilayah administratif
+    desa ini. Pada 19 September 2019 lalu, kegiatan protes dilakukan oleh Gabungan
+    Komunitas Peduli Lingkungan Gunung Geulis, Kabupaten Sumedang kepada DPRD
+    Jawa Barat. Berita yang termuat pada laman PikiranRakyat.com ini, disebabkan
+    karena warga ingin pemerintah menertibkan salah satu perusahaan penambangan pasir
+    di kawasan Desa Jatimukti dan Jatiroke, Kecamatan Jatinangor. Penambangan
+    dianggap dapat menyebabkan degradasi lahan yang berujung pada peristiwa
+    sedimentasi dan erosi. Oleh karena itu, kami menantang Kamu untuk menganalisis kerawanan bencana
+    erosi di salah satu desa, yakni Jatiroke. Analisis dilakukan dengan metode USLE
+    (Universal Soil Loss Equation). USLE merupakan metode yang sering digunakan
+    untuk memprediksi tingkat bahaya erosi dan perencanaan penggunaan lahan, serta
+    pemilihan alternatif teknik konservasi tanah (Hariyanto, dkk., 2019). </p>
+
+    <p>
+        Agar Peta Kerawanan erosi ini dapat dibuat, saya menggunakan tools intersect di ArcMap untuk menyatukan semua parameter yang dibutuhkan. lalu saya mengklasifikasi kewaranan tersebut menggunakan klasifikais USLE. setelah mengklasifikasi data-data tersebut saya mengekspor data-data dalam bentuk SHP   ke QGIS agar dapat diperindah lagi dan membuat WebGIS menggunakan plugins qgis2web.
+        <BR>
+        </BR>
+        Setelah saya menggunakan plugins tersebut, saya mengekspor data kode hasil plugins tersebut di dalam komputer saya. Setelah itu saya menggunakan VScode untuk membuat page pembuka ini, dan index.html nya saya pindahakan ke page ini (bukan ke peta). lalu saya menggunakan akun github saya untuk membuat respiratory untuk sebagai hosting untuk page ini. Mohon maaf karena keterbatasan waktu saya tidak bisa banyk menghias website ini dengan CSS dan saya hanya menggunakan internal CSS dalam HTMLnya. 
+    </p>
+    <h2>Metode</h2>
+    <p>Rumus USLE
+    dinyatakan dengan perkalian nilai spasial pada 5 faktor, yaitu:</p>
+    <P>Rumus USLE = A (USLE) = R x K x L x S x C x P</P>
+    <p>Keterangan</p>
+    <li>
+        <ul>
+            R = faktor erosivitas curah hujan
+        </ul>
+        <ul>
+            K = faktor erodibilitas tanah
+        </ul>
+        <ul>
+            L=faktor panjang slope atau ke lerengan
+        </ul>
+        <ul>
+            S=faktor gradien slope atau kelerengan
+        </ul>
+        <ul>
+            C=faktor tutupan lahan
+        </ul>
+        <ul>
+            P=faktor konservasi dan pendukung atau penggunaan lahan
+        </ul>
+    </li>
+    <h2>Gambaran umum daerah yang dipetakan</h2>
+    <p>Daerah yang dipetakan adalah Desa Jatiroke, Kabupaten Jatinangor, Jawa Barat, Indonesia.</p>
+    <img src="images/Peta.png" alt="" style="display: flex; margin: auto; justify-content: center; width: 40rem; height: fit-content;" >
+    <a href=""></a>
+    <br>
+<h2>Analisis dan Kesimpulan
+</h2>
+<p>
+    Hasil dari analisis kerawanan erosi untuk daerah desa Jatiroke menyimpulkan bahwa Desa tersbut memiliki mayoritas kerawanan erosi sangat ringan (>90%) dan tidak memiliki daerah yang memiliki kerawanan yang tinggi. Sehingga desa ini dapat digunakan untuk berbagai kebutuhan seperti perkebunan dan pertanian
+</p>
+<h3>
+    Untuk melihat hasil dari analisis kerawanan erosi di Desa Jatiroke dapat klik ke link dibawah ini.
+</h3>
+<br>
+
+    <a href="Test.HTML" style="margin: auto; justify-content: center; display: flex; font-size: larger; ">Klik untuk membuka peta</a>
+</body>
+</html>
